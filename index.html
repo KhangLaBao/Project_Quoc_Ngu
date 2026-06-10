@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Quốc Ngữ Converter 1920</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="window">
+
+    <div class="titlebar">
+        Quốc-Ngữ Chuyển-Tự 1920
+    </div>
+
+    <div class="content">
+
+        <h1>Quốc-Ngữ Đầu Thế-Kỷ XX</h1>
+
+        <p id="counter"></p>
+        
+        <textarea id="input"
+        placeholder="Nhập văn bản hiện đại..."></textarea>
+
+        <br>
+
+        <button onclick="convertText()">
+            Chuyển-Đổi
+        </button>
+
+        <button onclick="clearAll()">
+            Xóa
+        </button>
+
+        <h2>Kết-Quả</h2>
+
+        <textarea id="output" readonly></textarea>
+<button onclick="copyOutput()">
+    Sao-Chép
+</button>
+        <p style="color: red; font-weight: bold">Thông báo:
+
+Công cụ này được xây dựng nhằm hỗ trợ chuyển đổi văn bản sang phong cách Quốc-Ngữ thường gặp trong các tài liệu và ấn phẩm lịch sử.
+
+Do sự đa dạng của cách viết, chính tả và từ ngữ qua từng thời kỳ, kết quả chuyển đổi có thể chưa hoàn toàn chính xác trong mọi trường hợp.
+
+Một số mục-từ được xây dựng dựa trên nguồn tư liệu lịch sử, cách dùng phổ biến hoặc quy ước của dự án. Sai sót, thiếu sót hoặc cách chuyển đổi chưa phù hợp có thể vẫn tồn tại.
+
+Người sử dụng nên đối chiếu thêm với các tài liệu lịch sử hoặc nguồn tham khảo chuyên ngành khi cần độ chính xác cao.
+
+Mọi góp ý nhằm cải thiện tự-điển và chất lượng chuyển đổi đều được hoan nghênh.
+
+<br><br>
+Cáo bạch cùng độc giả:
+
+Bổn công-cụ tuy đã được khảo xét và hiệu đính nhiều lần, song khó tránh khỏi điều sơ suất.
+
+Vì phép viết Quốc-Ngữ trong các thời kỳ có nhiều dị biệt, nên kết-quả chuyển-tự đôi khi có chỗ chưa thật thích đáng.
+
+Nếu quý độc-giả phát hiện sai sót hoặc thiếu sót, xin lượng thứ và vui lòng góp ý để bổn tự-điển ngày một hoàn thiện hơn.
+
+Kính cáo.
+
+</p>
+<p>
+Notice to Readers:
+
+This apparatus is intended solely for the conversion of
+modern Quốc-Ngữ into forms commonly encountered in
+historical publications and documents.
+
+Certain historical place names, government names, and
+expressions are retained for scholarly and linguistic purposes.
+Their appearance herein shall not be construed as a statement
+of any present political opinion.
+</p>
+
+<br>
+
+<p>
+Thông báo cho người đọc:
+
+Công cụ này chỉ nhằm mục đích chuyển đổi
+tiếng Quốc-Ngữ hiện đại sang các dạng thức thường gặp trong
+các ấn phẩm và tài liệu lịch sử.
+
+Một số tên địa danh lịch sử, tên chính thể, tên quốc gia,
+và cách diễn đạt được giữ lại vì mục đích học thuật,
+ngôn ngữ học và bảo đảm tính tương thích với văn bản lịch sử.
+
+Việc các tên gọi hoặc thuật ngữ này xuất hiện trong cơ sở dữ liệu
+không thể hiện sự ủng hộ, phản đối hoặc đại diện cho bất kỳ
+quan điểm chính trị hiện tại nào.
+
+Mục đích duy nhất của công cụ là chuyển đổi chính tả
+và phong cách Quốc-Ngữ lịch sử.
+</p>
+
+<p><strong>Lưu Ý:</strong> Chuyển đổi ngày tháng áp dụng cho các định dạng: DD/MM/YYYY, DD-MM-YYYY, DD.MM.YYYY (ví dụ: 25/12/2024, 25-12-2024, 25.12.2024). Các định dạng khác sẽ giữ nguyên.</p>
+
+<p><strong>Note:</strong> Date conversion applies to formats: DD/MM/YYYY, DD-MM-YYYY, DD.MM.YYYY (example: 25/12/2024, 25-12-2024, 25.12.2024). Other formats will remain unchanged.</p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
