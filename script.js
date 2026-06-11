@@ -2828,6 +2828,9 @@ const rules = {
 "ngô thụy miên": "Ngô-Thụy-Miên",
 "vũ đức sao biển": "Vũ-Đức-Sao-Biển",
 "phạm đình chương": "Phạm-Đình-Chương",
+"Anh cho em mùa xuân": "Anh Cho Em Mùa-Xuân",
+"mùa thu chết": "Mùa-Thu Chết",
+"thuyền viễn xứ": "Thuyền Viễn-Xứ",
 
 // 2. Nhạc phẩm gắn liền tiếng hát Danh-ca Thanh Tuyền
 "không bao giờ quên anh": "Không Bao-Giờ Quên Anh",
@@ -2838,6 +2841,7 @@ const rules = {
 "trúc phương": "Trúc-Phương",
 "lam phương": "Lam-Phương",
 "minh kỳ": "Minh-Kỳ",
+"Biển tình": "Biển-Tình",
 "dạ cầm": "Dạ-Cầm",
 
 // --- DANH MỤC QUẦN ĐẢO & ĐẢO LỚN THIÊNG LIÊNG CỦA VIỆT NAM ---
@@ -3049,8 +3053,86 @@ const rules = {
 "hoa tai": "bông-tai-đeo-vành",
 "bông tai": "bông-tai",
 "vòng tay": "vòng-xuyến-đeo-tay",
-"bật lửa": "máy-quẹt-lửa-zi-pô",
-"kính mắt": "kiếng-mát-tân-thời"
+"bật lửa": "máy-quẹt-lửa",
+"kính mắt": "kiếng-mát-tân-thời",
+
+// --- DANH MỤC Y-KHOA & BỆNH TẬT CỰU TRÀO (1920s - 1950s) ---
+"bác sĩ": "quan-thầy-thuốc",
+"bác sỹ": "quan-thầy-thuốc",
+"y tá": "cô-nhà-thương",
+"bệnh viện": "nhà-thương-lớn",
+"nhà thương": "nhà-thương",
+"hiệu thuốc": "nhà-thuốc-Tây-bản-xứ",
+"nhà thuốc": "nhà-thuốc-Tây-bản-xứ",
+"tiệm thuốc": "nhà-thuốc-Tây-bản-xứ",
+"đơn thuốc": "tờ-toa-thuốc-Tây",
+"bệnh sốt xuất huyết": "bệnh-sốt-xuất-huyết-truyền-nhiễm",
+"sốt xuất huyết": "bệnh-sốt-xuất-huyết-truyền-nhiễm",
+"bệnh tiểu đường": "bệnh-đái-đường-kinh-niên",
+"tiểu đường": "bệnh-đái-đường-kinh-niên",
+"bệnh cao huyết áp": "bệnh-tăng-xông-máu",
+"cao huyết áp": "bệnh-tăng-xông-máu",
+"đau bụng": "đau-quặn-lòng-ruột",
+"nhức đầu": "nhức-đầu-búa-bổ",
+"cảm cúm": "bệnh-cảm-mạo-phong-hàn",
+"khám bệnh": "chẩn-mạch-định-bệnh",
+
+// --- QUY TẮC Y TẾ VÀ TẠ TỪ CHIA LY (DÁN VÀO RULES.JS) ---
+"trạm xá": "trạm-y-tế-bản-xứ",
+"trạm y tế địa phương": "trạm-y-tế-bản-xứ",
+"vĩnh biệt": "Vĩnh-biệt",
+"vỉnh biệt": "Vĩnh-biệt", // Tự động sửa lỗi sai dấu hỏi/ngã
+"vỉnh bieetj": "Vĩnh-biệt", // Tự động sửa lỗi gõ Telex dính chữ
+"vĩnh bieetj": "Vĩnh-biệt",
+
+
+// --- DANH MỤC THỨC UỐNG CÓ CỒN VÀ TIỆC TÙNG CỰU TRÀO ---
+"rượu bia": "la-ve-rượu-bọt",
+"ru bia": "la-ve-rượu-bọt", // Tự động sửa lỗi gõ thiếu ký tự của người dùng
+"bia": "bi-e",
+"rượu": "rượu-đế",
+"nhậu nhẹt": "tụ-hội-ẩm-tửu", // Cách gọi trang trọng, hoài cổ của tiệc nhậu
+"ăn nhậu": "tụ-hội-ẩm-tửu",
+"say rượu": "say-bét-nhè",
+"say xỉn": "say-bét-nhè",
+
+// --- BỔ SUNG KHỐI ÂM NHẠC & NGHỆ SĨ ĐƯƠNG ĐẠI ---
+"đàm vĩnh hưng": "Danh-ca Đàm-Vĩnh-Hưng",
+"đàm vũng hưng": "Danh-ca Đàm-Vĩnh-Hưng", // Tự động sửa lỗi gõ sai phím của người dùng
+"lâu đài tình ái": "Lâu-Đài Tình-Ái",
+"lau dai tinh ai": "Lâu-Đài Tình-Ái", // Dự phòng người dùng gõ không dấu
+
+// --- DANH MỤC VŨ KHÍ, SÚNG ĐẠN & KHÍ TÀI QUÂN SỰ XƯA ---
+"ak-47": "súng-trường-tự-động A-K-47",
+"súng ak": "súng-trường-tự-động A-K",
+"shotgun": "súng-bắn-đạn-chùm Shotgun",
+"súng bắn đạn chùm": "súng-bắn-đạn-chùm",
+"pistol": "súng-lục-bán-tự-động Pistol",
+"súng lục": "súng-lục",
+"súng ngắn": "súng-lục",
+"lựu đạn": "quả-lựu-đạn",
+"băng đạn": "băng-chứa-đạn-dược",
+"viên đạn": "viên-đạn-chì",
+"khẩu súng": "khẩu-hỏa-mai-súng-ống",
+"vũ khí": "khí-tài-quân-dụng",
+"bắn súng": "khai-hỏa-súng-ống",
+"pháo binh": "pháo-binh-đại-bác",
+
+
+// --- DANH MỤC VŨ KHÍ CỔ HIỂN & SÚNG TRƯỜNG XƯA ---
+"súng hỏa mai": "khẩu-hỏa-mai-súng-ống",
+"súng hoả mai": "khẩu-hỏa-mai-súng-ống",
+"súng kíp": "khẩu-súng-kíp-săn-bắn",
+"súng trường": "súng-trường-bắn-tỉa",
+"đại bác": "pháo-binh-đại-bác",
+"thuốc súng": "thuốc-súng-đen",
+
+"chào mừng em trở lại": "Hân-hoan mừng em tái-ngộ-chốn-xưa",
+"chào mừng": "hân-hoan-nghênh-tiếp",
+"trở lại": "tái-ngộ-chốn-xưa"
+
+
+
 
 
 
