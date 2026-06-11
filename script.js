@@ -3024,7 +3024,35 @@ const rules = {
 "trã lời": "phúc-đáp", // Tự động sửa lỗi chính tả trã/trả
 "gì hết": "gì-hết",
 "vì do": "vì-do",
-"lấy nó là": "đành-coi-như"
+"lấy nó là": "đành-coi-như",
+
+// --- BỔ SUNG TỪ VỰNG THỜI GIAN & KHẨU NGỮ THOẠI PHIM ---
+"bữa giờ": "bữa-giờ",
+"ra quyết định": "lập-quyết-định",
+"quyết định là": "quyết-định-rằng",
+"giờ sáng": "giờ-sáng",
+"tính như là": "đành-coi-như",
+
+// --- 1. DANH MỤC GIAO TIẾP CƠ BẢN HOÀI CỔ ---
+"không có gì": "Không-có-chi",
+"không có": "Không-có",
+"được không": "Được-chăng",
+"dạ vâng": "Dạ-phải",
+"dạ, vâng": "Dạ-phải",
+
+// --- 2. DANH MỤC TRANG SỨC & PHỤ KIỆN TÂN THỜI XƯA ---
+"nhẫn kim cương": "cà-rá-hột-xoàn",
+"kim cương": "hột-xoàn",
+"nhẫn": "cà-rá",
+"đồng hồ đeo tay": "đồng-hồ-áp-tay",
+"dây chuyền": "dây-chuyền-vàng-vòng",
+"hoa tai": "bông-tai-đeo-vành",
+"bông tai": "bông-tai",
+"vòng tay": "vòng-xuyến-đeo-tay",
+"bật lửa": "máy-quẹt-lửa-zi-pô",
+"kính mắt": "kiếng-mát-tân-thời"
+
+
 
 
 
