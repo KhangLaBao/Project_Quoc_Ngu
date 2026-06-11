@@ -2967,7 +2967,66 @@ const rules = {
 "hình tròn": "hình-vòng-tròn-đồng-tâm",
 "đường kính": "đường-xuyên-tâm",
 "bán kính": "đường-bán-kính",
-"phần trăm": "độ-bách-phân"
+"phần trăm": "độ-bách-phân",
+
+// --- DANH MỤC HÌNH HỌC NÂNG CAO & ĐO LƯỜNG CỰU TRÀO ---
+"diện tích": "diện-tích-bề-mặt",
+"thể tích": "dung-tích-khối",
+"chu vi": "đường-vòng-quanh",
+"tam giác vuông": "hình-ba-góc-chánh-vị",
+"hình lập phương": "hình-khối-sáu-mặt-đều",
+"hình trụ": "hình-khối-ống-tròn",
+"mét": "thước-tây",
+"lít": "lít-bạc",
+"ki lô mét": "dặm-đường-tây",
+"kilômét": "dặm-đường-tây",
+"ki lô gam": "cân-tây",
+"kilôgam": "cân-tây",
+"tấn": "tấn-trọng-lượng",
+"vận tốc": "vận-tốc-di-chuyển",
+"gia tốc": "độ-tăng-tốc-lực",
+"trọng lực": "sức-hút-địa-cầu",
+
+// --- DANH MỤC VIẾT TẮT KHỐI LƯỢNG HỆ MÉT CỰU TRÀO ---
+"kg": "cân-tây",
+"kilogam": "cân-tây",
+"kilôgam": "cân-tây",
+"ki lô gam": "cân-tây",
+
+"gam": "phần-ngàn-cân-tây",
+"mg": "phần-triệu-cân-tây", // 1 miligam = 1/1.000.000 kg
+"miligam": "phần-triệu-cân-tây",
+
+// Loại bỏ "g", "kg", "mg" đơn độc ở rules, ta sẽ dùng hàm quét riêng hoặc viết rõ từ đầy đủ để bảo vệ từ vựng nền.
+"thước tây": "thước-tây",
+
+// --- DANH MỤC TÁI THIẾT & KIẾN THIẾT QUỐC GIA CỰU TRÀO ---
+"tái thiết quốc gia": "tái-thiết quốc-gia",
+"tái thiết": "tái-thiết",
+"kiến thiết": "kiến-thiết",
+"phát triển kinh tế": "khuếch-trương kinh-tế", // Văn phong kinh tế xưa hay dùng khuếch trương
+"khôi phục": "khôi-phục",
+"kế hoạch 5 năm": "Kế-hoạch Ngũ-niên", // Đúng thuật ngữ kế hoạch hành chính xưa
+"kế hoạch": "kế-hoạch",
+"bộ tái thiết": "Bộ-Tái-thiết-và-Phát-triển", // Bộ ngành rất quan trọng thời hậu chiến
+"cơ sở hạ tầng": "cơ-sở-kiến-trúc-nền-tảng",
+"xây dựng lại": "kiến-thiết-tự-cường",
+
+// --- BỔ SUNG KHẨU NGỮ VÀ TỪ VỰNG TÂM LÝ THOẠI PHIM ---
+"không đồng ý": "Không-đồng-ý",// --- HOÀI CỔ HÓA BIỂU THỊ THÁI ĐỘ (OLDER VERSION) ---
+"không đồng ý": "Khước-từ-ưng-thuận", // Thay vì Không-đồng-ý, dùng Khước-từ nghe rất sâu sắc
+"không đồng-ý": "Khước-từ-ưng-thuận",
+"đồng ý": "ưng-thuận",
+"đã đồng ý": "đã-ưng-thuận",
+"đã-đồng ý": "đã-ưng-thuận", // Sửa lỗi dính gạch nối thô của gợi ý cũ
+
+"trả lời": "phúc-đáp",
+"trã lời": "phúc-đáp", // Tự động sửa lỗi chính tả trã/trả
+"gì hết": "gì-hết",
+"vì do": "vì-do",
+"lấy nó là": "đành-coi-như"
+
+
 
 
 
