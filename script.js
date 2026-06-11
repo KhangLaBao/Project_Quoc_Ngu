@@ -2413,6 +2413,7 @@ const rules = {
   // ==========================================================================
   // I. CÁC CƠ QUAN TRUYỀN THÔNG QUỐC GIA LỚN (OFFICIAL DEPARTMENTS)
   // ==========================================================================
+   "thvn": "Vô-Tuyến-Truyền-Hình Việt-Nam", 
   "vtv": "Nha Vô-Tuyến-Truyền-Hình Việt-Nam",
   "vtv1": "Nha Vô-Tuyến-Truyền-Hình Việt-Nam Kênh-Số-1",
   "vtv2": "Nha Vô-Tuyến-Truyền-Hình Việt-Nam Kênh-Số-2",
@@ -2433,7 +2434,7 @@ const rules = {
   // ==========================================================================
   // II. CÁC SỞ TRUYỀN HÌNH LỊCH SỬ GIẢI THỂ (USED TO EXIST)
   // ==========================================================================
-  "thvn": "Nha Vô-Tuyến-Truyền-Hình Việt-Nam (Sài-Gòn)",
+  "thvn cũ": "Nha Vô-Tuyến-Truyền-Hình Việt-Nam (Sài-Gòn)",
   "thvn9": "Nha Vô-Tuyến-Truyền-Hình Việt-Nam Băng-tần Số-9",
   "afvn": "Mạng-lưới Phát-Thanh Truyền-Hình Quân-đội Mỹ AFVN",
   "ctv": "Sở Vô-Tuyến-Truyền-Hình Cần-Thơ thời-VNCH",
@@ -2711,7 +2712,273 @@ const rules = {
 "trình duyệt cốc cốc": "Khuôn-máy-duyệt-mạng Cốc-Cốc bản-xứ",
 "trình duyệt mạng": "khuôn-máy-duyệt-văn-mạng",
 "web browser": "khuôn-máy-duyệt-văn-mạng",
-"mở trình duyệt": "mở-cửa-sổ-duyệt-mạng"
+"mở trình duyệt": "mở-cửa-sổ-duyệt-mạng",
+
+// Bổ sung trạng từ, động từ đời sống và công nghệ năm 1950:
+"nhìn như": "nhìn-như",
+"người việt": "người-Việt",
+"tham gia": "tham-gia",
+"truy cập": "truy-cập",
+"thay vì": "thay-vì",
+
+// --- DANH MỤC THIẾT BỊ NGOẠI VI & LINH KIỆN ĐIỆN TOÁN ---
+"chuột máy tính": "chuột-điện-toán",
+"bàn phím": "bàn-phím-gõ-chữ",
+"màn hình": "màn-ảnh-hiển-thị",
+"màn hình máy tính": "màn-ảnh-hiển-thị",
+"ổ cứng": "hộp-tích-trữ-văn-kiện",
+"usb": "thẻ-lưu-trữ-điện-tử",
+"ổ cắm": "ổ-tiếp-điện",
+"dây cáp": "dây-cáp-đồng-truyền-tín-hiệu",
+"tai nghe": "ống-nghe-áp-tai",
+"loa máy tính": "ống-loa-phát-thanh-máy-tính",
+"máy in": "máy-ấn-loát-tự-động",
+"máy quét": "máy-quét-hình-ảnh",
+"bộ vi xử lý": "bộ-não-điện-toán-tự-động",
+"cpu": "bộ-não-điện-toán-tự-động",
+"bo mạch chủ": "bảng-mạch-chánh",
+"ram": "bộ-nhớ-tạm-thời",
+
+// --- DANH MỤC CA KHÚC & DANH CA SÀI GÒN XƯA (1950 - 1975) ---
+"60 năm cuộc đời": "60-Năm Cuộc-Đời",
+"đà lạt hoàng hôn": "Đà-Lạt Hoàng-Hôn",
+"hùng cường": "Hùng-Cường",
+"thanh tuyền": "Thanh-Tuyền",
+"lệ thu": "Lệ-Thu",
+"khánh ly": "Khánh-Ly",
+"thái thanh": "Thái-Thanh",
+"duy khánh": "Duy-Khánh",
+"chế linh": "Chế-Linh",
+"elvis phương": "Elvis-Phương",
+"hoàng oanh": "Hoàng-Oanh",
+"phương dung": "Phương-Dung",
+"upload bài hát": "ấn-hành-đĩa-hát",
+"upload": "phát-hành",
+"đăng tải bài hát": "ấn-hành-đĩa-hát",
+"đăng tải": "ấn-hành",
+"ca sĩ": "danh-ca",
+"bài hát": "bản-tình-ca",
+"nhạc sĩ": "nhạc-sĩ",
+
+
+// --- BẢN-TÌNH-CA KINH ĐIỂN CỦA LỆ THU, KHÁNH LY & HÙNG CƯỜNG ---
+
+// 1. Các ca khúc bất hủ của Danh-ca Lệ Thu
+"bản tình cuối": "Bản-Tình-Cuối",
+"hoài cảm": "Hoài-Cảm",
+"nước mắt mùa thu": "Nước-Mắt Mùa-Thu",
+"hạ trắng": "Hạ-Trắng",
+"thu hát cho người": "Thu Hát Cho Người",
+
+// 2. Các ca khúc bất hủ của Danh-ca Khánh Ly
+"cát bụi": "Cát-Bụi",
+"diễm xưa": "Diễm-Xưa",
+"biển nhớ": "Biển-Nhớ",
+"người thợ săn và đàn chim nhỏ": "Người Thợ-Săn Và Đàn Chim-Nhỏ",
+"hát cho người nằm xuống": "Hát Cho Người Nằm-Xuống",
+
+// 3. Các ca khúc kích động nhạc / nhạc vàng của Danh-ca Hùng Cường
+"60 năm cuộc đời": "60-Năm Cuộc-Đời",
+"gặp nhau trên phố": "Gặp-Nhau Trên-Phố",
+"tình anh lính chiến": "Tình Anh Lính-Chiến",
+"người lính chung tình": "Người Lính Chung-Tình",
+"túp lều lý tưởng": "Túp-Lều Lý-Tưởng",
+"lời 20": "Lời-20",
+
+// 4. Các bản song ca danh tiếng
+"nhìn những mùa thu đi": "Nhìn Những Mùa-Thu Đi",
+"nắng thủy tinh": "Nắng Thủy-Tinh",
+
+// --- BỔ SUNG CÁC NHẠC PHẨM CỦA DANH-CA LỆ THU & THANH TUYỀN ---
+
+// 1. Tuyển tập các ca khúc danh tiếng khác của Danh-ca Lệ Thu
+"anh cho em mùa xuân": "Anh Cho Em Mùa-Xuân",
+"mùa thu chết": "Mùa-Thu Chết",
+"thuyền viễn xứ": "Thuyền Viễn-Xứ",
+"mộng chiều xuân": "Mộng Chiều-Xuân",
+"xin còn gọi tên nhau": "Xin Còn Gọi Tên Nhau",
+"ngàn thu áo tím": "Ngàn-Thu Áo-Tím",
+"thu ca": "Thu-Ca",
+"chiếc lá cuối cùng": "Chiếc-Lá Cuối-Cùng",
+
+// 2. Tuyển tập các ca khúc danh tiếng của Danh-ca Thanh Tuyền
+"biển tình": "Biển-Tình",
+"chuyến tàu hoàng hôn": "Chuyến Tàu Hoàng-Hôn",
+"về đâu mái tóc người thương": "Về Đâu Mái-Tóc Người Thương",
+"hoa nở về đêm": "Hoa Nở Về Đêm",
+"chuyện hẹn hò": "Chuyện Hẹn-Hò",
+
+// --- THUẬT NGỮ ÂM NHẠC & TÁC GIẢ VANG BÓNG (1950 - 1975) ---
+"nhạc tiền chiến": "nhạc-tiền-chiến",
+"nhạc quê hương": "nhạc-quê-hương",
+"nhạc lính": "nhạc-lính",
+"nhạc vàng": "nhạc-vàng",
+"truyền cảm": "truyền-cảm",
+"nội lực": "nội-lực",
+"thần đồng": "thần-đồng",
+"tượng đài": "tượng-đài-nghệ-thuật",
+
+// 1. Nhạc phẩm gắn liền tiếng hát Danh-ca Lệ Thu
+"mộng chiều xuân": "Mộng Chiều-Xuân",
+"xin còn gọi tên nhau": "Xin Còn Gọi Tên Nhau",
+"thu hát cho người": "Thu Hát Cho Người",
+"nửa hồn thương đau": "Nửa-Hồn Thương-Đau",
+"ngọc bích": "Ngọc-Bích",
+"trường sa": "Trường-Sa",
+"ngô thụy miên": "Ngô-Thụy-Miên",
+"vũ đức sao biển": "Vũ-Đức-Sao-Biển",
+"phạm đình chương": "Phạm-Đình-Chương",
+
+// 2. Nhạc phẩm gắn liền tiếng hát Danh-ca Thanh Tuyền
+"không bao giờ quên anh": "Không Bao-Giờ Quên Anh",
+"con đường mang tên em": "Con-Đường Mang Tên Em",
+"hoàng trần": "Hoàng-Trang", 
+"hoàng trang": "Hoàng-Trang",
+"hoàng trần": "Hoàng-Trân",
+"trúc phương": "Trúc-Phương",
+"lam phương": "Lam-Phương",
+"minh kỳ": "Minh-Kỳ",
+"dạ cầm": "Dạ-Cầm",
+
+// --- DANH MỤC QUẦN ĐẢO & ĐẢO LỚN THIÊNG LIÊNG CỦA VIỆT NAM ---
+"quần đảo hoàng sa": "Quần-đảo Hoàng-Sa",
+"quần đảo trường sa": "Quần-đảo Trường-Sa",
+"hoàng sa": "Hoàng-Sa",
+"trường sa": "Trường-Sa",
+"côn đảo": "Côn-Đảo",
+"quần đảo côn sơn": "Quần-đảo Côn-Sơn",
+"phú quốc": "Đảo Phú-Quốc",
+"đảo phú quốc": "Đảo Phú-Quốc",
+"thổ chu": "Quần-đảo Thổ-Chu",
+"phú quý": "Đảo Phú-Quý",
+"bạch long vĩ": "Đảo Bạch-Long-Vĩ",
+"cát bà": "Quần-đảo Cát-Bà",
+"lý sơn": "Cù-lao Lý-Sơn",
+"cù lao chàm": "Cù-lao Chàm",
+"cù lao xanh": "Cù-lao Xanh",
+"lãnh hải": "lãnh-hải-quốc-gia",
+"thềm lục địa": "thềm-lục-địa",
+"biển đông": "Biển-Đông",
+
+
+// --- 1. DANH MỤC KHÍ TƯỢNG, ĐỊA LÝ & THỜI TIẾT CỰU TRÀO ---
+"áp thấp nhiệt đới": "vùng-áp-thấp-nhiệt-đới-đại-dương",
+"khí tượng thủy văn": "khí-tượng-thủy-văn",
+"nha khí tượng": "Nha Khí-tượng",
+"nha khí tượng Việt Nam": "Nha Khí-tượng Việt-Nam",
+"dự báo thời tiết": "bản-tin-khí-tượng-thời-tiết",
+"áp thấp": "vùng-áp-thấp",
+"nhiệt đới": "nhiệt-đới",
+"vĩ độ": "vĩ-độ-tuyến",
+"kinh độ": "kinh-độ-tuyến",
+"bão lớn": "trận-cuồng-phong-đại-hải",
+"bão": "trận-cuồng-phong",
+"phương hướng": "phương-hướng",
+"độ bách phân": "độ-bách-phân",
+"độ c": "độ-bách-phân",
+
+// --- 2. DANH MỤC CÁC NHẠC SĨ ĐẠI THỤ (GREAT COMPOSERS) ---
+"trịnh công sơn": "Trịnh-Công-Sơn",
+"lam phương": "Lam-Phương",
+"trần thiện thanh": "Trần-Thiện-Thanh",
+"vũ thành an": "Vũ-Thành-An",
+"trầm tử thiêng": "Trầm-Tử-Thiêng",
+"phạm duy": "Phạm-Duy",
+"lê thương": "Lê-Thương",
+"văn cao": "Văn-Cao",
+
+"đài phát thanh": "đài-phát-thanh",
+// --- DANH MỤC BÁO CHÍ CỰU TRÀO SÀI GÒN XƯA ---
+"báo chính luận": "Nhật-báo Chính-Luận",
+"báo tự do": "Nhật-báo Tự-Do",
+"báo ngôn luận": "Nhật-báo Ngôn-Luận",
+"báo thần phong": "Nhật-báo Thần-Phong",
+"tòa soạn": "tòa-tống-độc-bản-báo",
+"phóng viên": "ký-giả-săn-tin",
+"nhà báo": "ký-giả",
+"tổng biên tập": "chủ-bút-nhật-báo",
+"nhà in": "nhà-ấn-quán",
+"ấn loát": "ấn-loát",
+"sạp báo": "sạp-bán-nhật-trình",
+"báo ngày": "nhật-trình",
+
+// --- DANH MỤC BÁO ĐIỆN TỬ HIỆN ĐẠI (MODERN NEWSPAPERS) ---
+"vnexpress": "Thông-tin-điện-tử Vờ-Nờ-Ép-gơ-rét",
+"báo vnexpress": "Nhật-báo điện-tử Vờ-Nờ-Ép-gơ-rét",
+"vietnamnet": "Thông-tin-điện-tử Việt-Nam-Mạng",
+"báo tuồi trẻ": "Nhật-báo Tuổi-Trẻ",
+"báo tuổi trẻ": "Nhật-báo Tuổi-Trẻ",
+"báo thanh niên": "Nhật-báo Thanh-Niên",
+"báo dân trí": "Nhật-báo điện-tử Dân-Trí",
+"dân trí": "Nhật-báo điện-tử Dân-Trí",
+"báo lao động": "Nhật-báo Lao-Động",
+"báo điện tử": "nhật-trình-điện-toán-mạng",
+"đọc báo trực tuyến": "đọc-nhật-trình-trên-mạng-lưới",
+
+// --- BỔ SUNG CỘT MỐC TRUYỀN THÔNG CÁCH MẠNG 1975 ---
+"sggp": "Nhật-báo Sài-Gòn Giải-Phóng",
+"spgp": "Nhật-báo Sài-Gòn Giải-Phóng", // Dự phòng lỗi gõ đảo chữ của người dùng
+"báo sài gòn giải phóng": "Nhật-báo Sài-Gòn Giải-Phóng",
+"sài gòn giải phóng": "Sài-Gòn Giải-Phóng",
+
+// --- DANH MỤC TỪ LÓNG ĐỜI SỐNG THỊ THÀNH SÀI-GÒN XƯA ---
+"bà tám": "bà-tám", // Người hay hóng hớt, buôn chuyện
+"bà tám hóng chuyện": "bà-tám-hóng-chuyện", 
+"hóng chuyện": "hóng-chuyện", 
+"tám chuyện": "hớt-lẻo-chuyện-đời",
+"buôn chuyện": "hớt-lẻo-chuyện-đời",
+"xe ôm": "xe-lôi-máy-bản-xứ", // Hoặc xe-ôm-đầu-ngõ
+"vỉa hè": "lề-đường-phố-thị",
+"trà đá vỉa hè": "tiệm-nước-chè-lề-đường",
+"đi quẩy": "đi-hóng-nhạc-phòng-trà",
+"diện đồ": "bảnh-tỏn-lên-đồ",
+"chảnh": "kiêu-kỳ-quá-mạng",
+"kiêu chảnh": "kiêu-kỳ-quá-mạng",
+"đẹp trai": "bảnh-trai-hết-sẩy",
+"đẹp gái": "đẹp-gái-hết-biết",
+"đại gia": "khách-trưởng-giả-bạc-tiền",
+"thiếu gia": "công-tử-bạc-liêu",
+"hết tiền": "sạch-túi-bạc-mạng",
+"cháy túi": "sạch-túi-bạc-mạng",
+
+// --- 1. DANH MỤC RẠP HÁT, CẢI LƯƠNG & GÁNH HÁT VANG BÓNG ---
+"rạp cải lương": "rạp-hát-cải-lương",
+"gánh hát": "gánh-hát-đình-đám",
+"nghệ sĩ cải lương": "đào-kép-văn-nghệ-cổ-truyền",
+"vở cải lương": "tuồng-hát-cải-lương",
+"tuồng cải lương": "tuồng-hát-cải-lương",
+"nghệ sĩ nhân dân": "đào-kép-danh-tiếng-quốc-gia",
+"soạn giả": "thầy-soạn-tuồng",
+"đờn ca tài tử": "đờn-ca-tài-tử-miền-tây",
+"vọng cổ": "bản-cổ-bản-vọng-cổ",
+
+// --- 2. DANH MỤC TOÁN PHÁP & HÌNH HỌC CỔ HIỂN ---
+"toán học": "môn-Toán-pháp",
+"hình học": "môn-Hình-thể-học",
+"đại số": "môn-Đại-số-học",
+"phép cộng": "phép-gộp-số",
+"phép trừ": "phép-bớt-số",
+"phép nhân": "phép-nhân-số",
+"phép chia": "phép-chia-số",
+"phương trình": "phương-trình-đẳng-thức",
+"hình tam giác": "hình-ba-góc",
+"hình vuông": "hình-bốn-góc-đều",
+"hình chữ nhật": "hình-bốn-góc-trường-phương",
+"hình tròn": "hình-vòng-tròn-đồng-tâm",
+"đường kính": "đường-xuyên-tâm",
+"bán kính": "đường-bán-kính",
+"phần trăm": "độ-bách-phân"
+
+
+
+
+
+
+
+
+
+
+
 
 
 
