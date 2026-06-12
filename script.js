@@ -2162,6 +2162,7 @@ const rules = {
 "trí tuệ nhân tạo ai": "Điện-toán-thông-minh-A-I",
 "trí tuệ nhân tạo": "Trí-tuệ-nhân-tạo",
 "chatgpt": "Máy-điện-toán-Chat-G-P-T",
+"Google Ai": "Điện-toán-thông-minh-Gu-Gồ-A-I",
 "google": "Sở-Tra-Cứu-Gu-Gồ",
 "mạng google": "Cơ-quan-tra-cứu-Gu-gồ",
 "facebook": "Mạng-xã-hội-Phây-búc",
