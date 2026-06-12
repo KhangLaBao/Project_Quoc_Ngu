@@ -3,7 +3,6 @@
 // This entry does NOT imply any current political status.
 
 const rules = {
-
 // Places
 "Việt Nam":"Việt-Nam",
 "Hà Nội":"Hà-Nội",
@@ -864,6 +863,7 @@ const rules = {
 // Thiết bị & Phần cứng (Hardware)
 "máy vi tính": "máy-vi-tính",
 "máy điện toán": "máy-điện-toán",
+"thư máy-điện-toán": "thư-máy-điện-toán",
 "màn hình": "màn-hình",
 "bàn phím": "bàn-phím",
 "chuột máy tính": "chuột-máy-tính",
@@ -2162,19 +2162,22 @@ const rules = {
 "trí tuệ nhân tạo ai": "Điện-toán-thông-minh-A-I",
 "trí tuệ nhân tạo": "Trí-tuệ-nhân-tạo",
 "chatgpt": "Máy-điện-toán-Chat-G-P-T",
-"google": "Cơ-quan-tra-cứu-Gu-gồ",
+"google": "Sở-Tra-Cứu-Gu-Gồ",
 "mạng google": "Cơ-quan-tra-cứu-Gu-gồ",
 "facebook": "Mạng-xã-hội-Phây-búc",
 "youtube": "Đài-hình-Du-túp",
 "tiktok": "Ứng-dụng-Tíc-tốc",
 "discord": "Hội-quán-Đi-co",
-"zalo": "Điện-thoại-bản-xứ-Za-lô",
+"zalo": "Thư-thoại-bản-xứ-Za-lô",
 "microsoft": "Hãng-phần-mềm-Mai-crô-sóp",
 "apple": "Hãng-máy-Áp-pồ",
-"iphone": "Điện-thoại-Ai-phôn",
+"iphone": "Ai-phôn",
+"điện thoại iphone": "điện-thoại-Ai-phôn",
 "hệ điều hành": "Hệ-thống-hành-vi-máy",
 "windows": "Hệ-thống-Cửa-sổ-Win-đô",
+"học tập" : "học-tập",
 "android": "Hệ-thống-Người-máy-An-droi",
+"thư máy điện toán": "thư-máy-điện-toán",
 
 "chatbot": "máy-đàm-thoại",
 "ai chatbot": "máy-đàm-thoại-a-i",
@@ -2697,21 +2700,22 @@ const rules = {
 "tìm kiếm": "tra-cứu",
 
 // --- DANH MỤC TRÌNH DUYỆT MẠNG PHỔ BIẾN (BROWSERS) ---
-"trình duyệt google chrome": "Khuôn-máy-duyệt-mạng Gu-gồ Crôm",
-"trình duyệt chrome": "Khuôn-máy-duyệt-mạng Gu-gồ Crôm",
-"google chrome": "Khuôn-máy-duyệt-mạng Gu-gồ Crôm",
-"chrome": "Khuôn-máy-duyệt-mạng Crôm",
-"trình duyệt firefox": "Khuôn-máy-duyệt-mạng Cáo-Lửa",
-"firefox": "Khuôn-máy-duyệt-mạng Cáo-Lửa",
-"trình duyệt safari": "Khuôn-máy-duyệt-mạng Sa-pha-ri",
-"safari": "Khuôn-máy-duyệt-mạng Sa-pha-ri",
-"trình duyệt edge": "Khuôn-máy-duyệt-mạng Ép-gơ-Mỹ",
-"microsoft edge": "Khuôn-máy-duyệt-mạng Ép-gơ-Mỹ",
-"opera": "Khuôn-máy-duyệt-mạng Ô-pê-ra",
-"cốc cốc": "Khuôn-máy-duyệt-mạng Cốc-Cốc bản-xứ",
-"trình duyệt cốc cốc": "Khuôn-máy-duyệt-mạng Cốc-Cốc bản-xứ",
+"trình duyệt google chrome": "Chương-Trình-Duyệt-Mạng Gu-gồ Crôm",
+"trình duyệt chrome": "Chương-Trình-Duyệt-Mạng Gu-gồ Crôm",
+"google chrome": "Chương-Trình-Duyệt-Mạng Gu-gồ Crôm",
+"chrome": "Chương-Trình-Duyệt-Mạng Crôm",
+"trình duyệt firefox": "Chương-Trình-Duyệt-Mạng Cáo-Lửa",
+"firefox": "Chương-Trình-Duyệt-Mạng Cáo-Lửa",
+"trình duyệt safari": "Chương-Trình-Duyệt-Mạng Sa-pha-ri",
+"safari": "Chương-Trình-Duyệt-Mạng Sa-pha-ri",
+"trình duyệt edge": "Chương-Trình-Duyệt-Mạng Ép-gơ-Mỹ",
+"microsoft edge": "Chương-Trình-Duyệt-Mạng Ép-gơ-Mỹ",
+"opera": "Chương-Trình-Duyệt-Mạng Ô-pê-ra",
+"cốc cốc": "Chương-Trình-Duyệt-Mạng Cốc-Cốc bản-xứ",
+"trình duyệt cốc cốc": "Chương-Trình-Duyệt-Mạng Cốc-Cốc bản-xứ",
 "trình duyệt mạng": "khuôn-máy-duyệt-văn-mạng",
-"web browser": "khuôn-máy-duyệt-văn-mạng",
+"web browser": "Chương-Trình-duyệt-văn-mạng",
+"broswer": "Chương-Trình-Duyệt-Mạng",
 "mở trình duyệt": "mở-cửa-sổ-duyệt-mạng",
 
 // Bổ sung trạng từ, động từ đời sống và công nghệ năm 1950:
@@ -3381,13 +3385,8 @@ const rules = {
 "chị gái": "bào-tỷ",
 "em gái": "bào-muội",
 "con dâu": "dâu-hiền-phu-phụ",
-"con rể": "rể-hiền-môn-đệ"
-
-
-
-
-
-
+"con rể": "rể-hiền-môn-đệ",
+"thư điện tử": "thư-máy-điện-toán",
 
 
 
@@ -3415,6 +3414,14 @@ const rules = {
 
 };
 
+const cleanup = {
+    "thư máy-điện-toán": "thư-máy-điện-toán",
+    // future edge cases here
+};
+
+for (const [from, to] of Object.entries(cleanup)) {
+    text = text.replaceAll(from, to);
+}
 
 window.onload = function () {  
     document.getElementById("counter").textContent =
@@ -3492,8 +3499,9 @@ function convertText() {
 
     // BƯỚC 0: Chuyển đổi định dạng ngày tháng
     // Chuyển DD/MM/YYYY, DD-MM-YYYY, DD.MM.YYYY thành Ngày DD Tháng MM Năm YYYY
-    const dateRegex = /(\d{1,2})[\/\-\.](\d{1,2})[\/\-\.](\d{4})/g;
-    text = text.replace(dateRegex, (matched, day, month, year) => {
+const dateRegex = /(Ngày\s+)?(\d{1,2})[\/\-\.](\d{1,2})[\/\-\.](\d{4})/gi;
+
+text = text.replace(dateRegex, (matched, ngay, day, month, year) => {
         return `Ngày ${day} Tháng ${month} Năm ${year}`;
     });
 
