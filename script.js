@@ -3129,7 +3129,260 @@ const rules = {
 
 "chào mừng em trở lại": "Hân-hoan mừng em tái-ngộ-chốn-xưa",
 "chào mừng": "hân-hoan-nghênh-tiếp",
-"trở lại": "tái-ngộ-chốn-xưa"
+"trở lại": "tái-ngộ-chốn-xưa",
+
+// --- DANH MỤC CHƯƠNG TRÌNH & BẢN TIN TRUYỀN HÌNH CỰU TRÀO ---
+"thời sự vtv": "Bản-tin Thời-sự-nghị-trường của Nha Vô-Tuyến-Truyền-Hình Việt-Nam",
+"thời sự": "bản-tin-thời-sự-nghị-trường",
+"tin tức": "bản-tin-tức-hằng-ngày",
+"điểm tin": "tóm-lược-tin-tức",
+"60 giây": "60-Giây-biến-động-phố-thị", // Chương trình tin tức cực kỳ ăn khách của HTV
+"60 giay": "60-Giây-biến-động-phố-thị",
+"ký sự": "tờ-ký-sự-đường-trường",
+"phóng sự": "bản-phóng-sự-điều-tra",
+"bản phóng sự": "bản-phóng-sự-điều-tra",
+"chương trình": "chương-trình-phát-thanh",
+"bản tin": "tờ-bản-tin",
+"phát sóng": "phát-sóng-truyền-thanh",
+
+// --- DANH MỤC TÊN THÀNH PHỐ & ĐÔ THỊ CỰU TRÀO ---
+"thành phố sài gòn": "Đô-thành Sài-Gòn",
+"thành phố hồ chí minh": "Thành-phố Hồ-Chí-Minh",
+"thành phố hà nội": "Thành-phố Hà-Nội",
+"thành phố hải phòng": "Thành-phố Hải-Phòng",
+"thành phố đà nẵng": "Thành-phố Đà-Nẵng",
+"thành phố huế": "Cố-đô Huế",
+"thành phố nha trang": "Thị-xã Nha-Trang",
+"thành phố cần thơ": "Thành-phố Cần-Thơ",
+"thành phố vũng tàu": "Thị-xã Vũng-Tàu",
+"thành phố đà lạt": "Thị-xã Đà-Lạt",
+"thành phố buôn ma thuột": "Thị-xã Ban-Mê-Thuột", // Đúng chuẩn tên gọi cổ Ban Mê Thuột
+"thành phố quy nhơn": "Thị-xã Quy-Nhơn",
+"thành phố mỹ tho": "Thành-phố Mỹ-Tho",
+"đà lạt": "Đà-Lạt",
+"vũng tàu": "Vũng-Tàu",
+"mỹ tho": "Mỹ-Tho",
+
+// --- DANH MỤC THIẾT BỊ LƯU TRỮ VÀ NGHE NHÌN CỰU TRÀO ---
+"băng cối": "băng-cao-tần-cuộn-lớn", // Băng Akai huyền thoại của thập niên 60-70
+"băng akai": "băng-cao-tần-cuộn-lớn",
+"băng cassette": "băng-nhạc-từ-tính-Nhật-bản",
+"băng casette": "băng-nhạc-từ-tính-Nhật-bản", // Dự phòng lỗi gõ thiếu chữ s
+"cassette": "máy-hát-băng-từ-tính",
+"vhs": "băng-hình-vô-tuyến-V-H-S",
+"băng vhs": "băng-hình-vô-tuyến-V-H-S",
+"đĩa nhựa": "đĩa-hát-máy-hát-thùng",
+"đĩa than": "đĩa-hát-máy-hát-thùng",
+"vinyl": "đĩa-hát-máy-hát-thùng",
+"máy hát": "máy-hát-thùng-loa-kèn",
+"máy nghe nhạc": "máy-hát-băng-từ-tính",
+"đầu đĩa": "máy-quay-đĩa-hát",
+
+
+// --- BỘ ĐIỆN ẢNH & ĐỊNH DẠNG PHIM CỰU TRÀO CHUẨN HÓA ---
+"phim 8mm": "phim-nhựa-tiểu-hình-tám-ly",
+"phim 16mm": "phim-nhựa-thời-sự-mười-sáu-ly",
+"phim 35mm": "phim-ảnh-văn-nghệ-ba-mươi-lăm-ly",
+"phim nhựa": "phim-nhựa-điện-ảnh",
+"cuộn phim": "cuộn-phim-nhựa",
+"camcorder": "máy-quay-phim-xách-tay",
+"máy quay phim": "máy-ghi-ảnh-hoạt-động",
+"camera": "khuôn-máy-chụp-hình",
+"máy ảnh": "khuôn-máy-chụp-hình",
+"analog": "hệ-truyền-dẫn-cơ-năng-liên-tục",
+"cơ học": "cơ-năng-học",
+"kỹ thuật số": "kỹ-thuật-ký-số-toán-hạng",
+"digital": "kỹ-thuật-ký-số-toán-hạng",
+"băng video": "băng-hình-vô-tuyến",
+"phim": "chớp-bóng", // Khóa an toàn: Đổi thành chớp-bóng để triệt tiêu lỗi lặp chữ nhựa
+
+// --- BỔ SUNG HỆ THỐNG PHÒNG CHIẾU BÓNG & KỊCH NGHỆ CỰU TRÀO ---
+"rạp chiếu phim lớn": "Đại-vĩ-tuyến rạp-chớp-bóng",
+"màn ảnh rộng": "màn-ảnh-đại-vĩ-tuyến",
+"màn hình lớn": "màn-ảnh-đại-vĩ-tuyến",
+"phim thuyết minh": "chớp-bóng-độc-thoại-ngôn-ngữ",
+"phim phụ đề": "chớp-bóng-đính-văn-tự",
+"vé xem phim": "tờ-vé-hát-bóng",
+"tấm màn nhung": "bức-màn-nhung-sân-khấu",
+"suất chiếu": "suất-chớp-bóng",
+"khán giả": "khán-giả-thưởng-ngoạn",
+
+
+// --- DANH MỤC THỂ LOẠI CHỚP BÓNG CỰU TRÀO ---
+"phim hành động": "chớp-bóng-võ-thuật-hoạt-động",
+"phim kinh dị": "chớp-bóng-kinh-tâm-rùng-rợn",
+"phim ma": "chớp-bóng-ma-quái-kinh-dị",
+"phim tài liệu": "chớp-bóng-văn-kiện-lịch-sử",
+"phim trinh thám": "chớp-bóng-bài-tra-án-tích",
+"phim hài": "chớp-bóng-hài-hước-khôi-hài",
+"phim hài hước": "chớp-bóng-hài-hước-khôi-hài",
+"phim tình cảm": "chớp-bóng-tình-cảm-xã-hội",
+"phim tâm lý": "chớp-bóng-tình-cảm-xã-hội",
+"phim võ thuật": "chớp-bóng-võ-nghệ-đả-đấu",
+"phim kiếm hiệp": "chớp-bóng-hiệp-khách-đao-kiếm",
+"phim hoạt hình": "chớp-bóng-họa-hình-hoạt-động",
+"phim viễn tưởng": "chớp-bóng-khoa-học-tưởng-tượng",
+
+"hành động": "võ-thuật-hoạt-động",
+"trinh thám": "bài-tra-án-tích",
+"văn kiện": "văn-kiện-lịch-sử",
+"tài liệu": "văn-kiện-lịch-sử",
+"xem": "coi",
+
+// Các từ có chứa vần Y/Ý phổ biến (Không liên quan đến Italy)
+"ký kết": "ký-kết",
+"ký bộ": "ký-bộ",
+"lý luận": "lý-luận",
+"triết lý": "triết-lý",
+"bác sĩ thú y": "thầy-thuốc-thú-y",
+"y phục": "y-phục",
+"thời kỳ": "thời-kỳ",
+"chuẩn ý": "chuẩn-ý",
+"suy nghĩ": "suy-nghĩ",
+"ý kiến": "ý-kiến",
+"ý định": "ý-định",
+"tỷ tỷ": "tỷ-tỷ",
+"công ty": "công-ty",
+
+"bác sĩ thú y": "thầy-thuốc-thú-y",
+"thú y": "thú-y",
+"chính trị gia": "nhà-chánh-trị-học",
+"cảnh sát giao thông": "cảnh-binh-lộ-trình",
+"cảnh sát": "bảo-an-binh",
+"thợ sửa xe": "thợ-vận-cơ-khí-xa",
+"thợ cơ khí": "thợ-vận-cơ-khí",
+"kiến trúc sư": "thầy-khoán-kiến-trúc",
+"kế toán": "thầy-ký-sổ-sách",
+"thư ký": "thầy-ký",
+"giám đốc công ty": "Quản-lý đại-bản-doanh-công-ty",
+
+"tiền tệ": "tiền-tệ-lưu-hành",
+"tiền đô": "đồng-bạch-kim-Mỹ",
+"đô la": "đồng-bạch-kim-Mỹ",
+"lạm phát": "sự-sụt-giá-bạc-tiền",
+"tiền lãi": "tiền-lời-ngân-bản",
+"lãi suất": "độ-lời-ngân-bản",
+"tín dụng": "vay-mượn-tín-dụng",
+"đầu tư": "bỏ-vốn-giao-thương",
+"cổ phiếu": "tờ-vốn-chung-công-ty",
+"phá sản": "vỡ-nợ-sập-tiệm",
+"nợ nần": "mắc-nợ-mắc-nần",
+
+"vay tín dụng": "vay-mượn-tín-dụng",
+
+
+// --- DANH MỤC BIẾN ĐỘNG LỊCH SỬ XÃ HỘI ---
+"nạn đói": "nạn-đói",
+"nạn đói năm 1945": "nạn-đói-năm-Ất-Dậu",
+"mất mùa": "thất-thu-vụ-chiêm",
+"cứu tế": "phòng-tế-bần-cứu-tế",
+
+// --- DANH MỤC TƯ PHÁP, TOÀ ÁN & LUẬT PHÁP CỰU TRÀO ---
+"luật sư": "thầy-cãi",
+"tòa án": "tòa-án-pháp-đình",
+"toà án": "tòa-án-pháp-đình",
+"thẩm phán": "quan-tòa-xử-án",
+"chánh án": "quan-chánh-án",
+"viện kiểm sát": "Viện-Công-tố-Pháp-đình", // Đúng thuật ngữ tư pháp xưa
+"phiên tòa": "phiên-tòa-thẩm-bác",
+"phiên toà": "phiên-tòa-thẩm-bác",
+"bị cáo": "bị-cáo-nhân",
+"nhân chứng": "nhân-chứng-nguyên-tọa",
+"bằng chứng": "vật-chứng-pháp-lý",
+"pháp luật": "luật-pháp-quốc-gia",
+"vi phạm pháp luật": "phạm-pháp-bất-luân",
+
+// --- DANH MỤC TỘI DANH & HÌNH PHẠT CỰU TRÀO ---
+"tội trộm cắp": "tội-gian-phi-đạo-tặc",
+"trộm cắp": "gian-phi-đạo-tặc",
+"ăn trộm": "đạo-tặc",
+"đi tù": "thụ-án-khám-đường",
+"ở tù": "thụ-án-khám-đường",
+"nhà tù": "khám-đường-đại-lao",
+"tịch thu tài sản": "tịch-biên-gia-sản",
+"tịch thu": "tịch-biên",
+"tử hình": "xử-tử-bêu-đầu",
+"bị phạt": "bị-phạt-vạ-bạc-tiền",
+"tiền phạt": "tiền-phạt-vạ",
+"bắt giam": "bắt-giam-tra-khảo",
+"thả tự do": "phóng-thích-tại-tòa",
+
+"chào em": "Chào-em",
+"như thế nào": "bình-an-chăng",
+"như thế nào?": "bình-an-chăng?",
+"sức khỏe": "sức-khỏe",
+
+// --- DANH MỤC TRÒ CHƠI ĐIỆN TỬ & GIẢI TRÍ SỐ ---
+"trò chơi điện tử": "trò-chơi-máy-điện-toán",
+"chơi game": "giải-trí-máy-điện-toán",
+"game": "trò-chơi-máy-điện-toán",
+"nãy giờ": "nãy-giờ",
+"trò chơi": "trò-chơi",
+"đang chơi": "đang-vận-hành-giải-trí",
+"điện tử": "máy-điện-toán",
+
+"đang xây": "đang-hành-sự-kiến-trúc",
+"xây dựng": "kiến-thiết-tự-cường",
+"xây": "hành-sự-kiến-trúc",
+"công trình": "công-trình-kiến-trúc",
+"thành phố": "đô-thị-thành-phố",
+"thành trì": "thành-trì-bảo-vệ",
+
+// --- DANH MỤC THẮNG BẠI & TRANH TÀI CỰU TRÀO ---
+"thắng cuộc": "đoạt-thủ-khải-hoàn", // Hoặc "thắng-cuộc" nếu muốn recognizable
+"thắng trận": "đoạt-thủ-khải-hoàn",
+"chiến thắng": "chiến-thắng-khải-hoàn",
+"thua cuộc": "thất-trận-bại-vong", // Hoặc "thua-cuộc" nếu muốn recognizable
+"thua trận": "thất-trận-bại-vong",
+"thất bại": "thất-bại-vong-vơ",
+"bị loại": "bị-trục-xuất-pháp-đình-trận",
+"vòng loại": "vòng-khảo-hạch-sơ-khởi",
+"chung kết": "trận-quyết-chiến-chung-kết",
+"vô địch": "đoạt-giải-quán-quân-toàn-quốc",
+"quán quân": "đoạt-giải-quán-quân-toàn-quốc",
+"tỷ số": "tỷ-số-bảng-điểm",
+"hòa nhau": "bất-phân-thắng-bại",
+"bất phân thắng bại": "bất-phân-thắng-bại",
+
+"bê tông": "đá-xi-măng-cốt-sắt",
+"bêtông": "đá-xi-măng-cốt-sắt",
+"gạch men": "gạch-tráng-men-tân-thời",
+"kiến trúc thượng tầng": "kiến-trúc-thượng-tầng-quốc-gia",
+"xi măng": "đá-vôi-xi-măng-Tây",
+"sắt thép": "sắt-thép-kiến-thiết",
+"gạch ngói": "gạch-ngói-ấn-loát-đất-nung",
+"bản vẽ kiến trúc": "tờ-sơ-đồ-kiến-trúc",
+"bản thiết kế": "tờ-bản-thảo-phác-họa",
+"thợ xây": "thợ-nề-kiến-trúc",
+"giàn giáo": "giàn-gỗ-tuần-phòng-kiến-trúc",
+
+"sân thượng": "lầu-thượng-hóng-mát",
+
+// --- DANH MỤC XƯNG HÔ THÀNH VIÊN GIA ĐÌNH CỰU TRÀO (1920s - 1950s) ---
+"ông nội": "ông-nội-gia-trưởng",
+"bà nội": "bà-nội-thân-tộc",
+"ông ngoại": "ông-ngoại-ngoại-tộc",
+"bà ngoại": "bà-ngoại-ngoại-tộc",
+"bố mẹ": "thân-phụ-thân-mẫu",
+"cha mẹ": "thân-phụ-thân-mẫu",
+"ba mẹ": "thân-phụ-thân-mẫu",
+"bố": "thân-phụ",
+"cha": "thân-phụ",
+"thầy": "thầy-thân-phụ", // Cách gọi cha rất phổ biến của Nho giáo xưa
+"mẹ": "thân-mẫu",
+"vợ chồng": "phu-phụ-thê-thiếp",
+"vợ": "hiền-thê",
+"nhà tôi": "nhà-tôi-hiền-thê",
+"chồng": "phu-quân",
+"con trai": "trưởng-nam-tử",
+"con gái": "ái-nữ-tiểu-thư",
+"anh trai": "bào-huynh",
+"em trai": "bào-đệ",
+"chị gái": "bào-tỷ",
+"em gái": "bào-muội",
+"con dâu": "dâu-hiền-phu-phụ",
+"con rể": "rể-hiền-môn-đệ"
+
 
 
 
