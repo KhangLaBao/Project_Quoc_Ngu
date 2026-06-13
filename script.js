@@ -2314,7 +2314,7 @@ const rules = {
 "ngày mùng ba": "ngày-mùng-ba",
 
 // --- DANH MỤC ĐƠN VỊ HÀNH CHÍNH & ĐÔ THỊ CỔ ---
-"thủ đô": "đô-thành",
+"thủ đô": "Thủ-đô",
 "thủ đô sài gòn": "Đô-Thành-Sài-Gòn",
 "quận": "quận",
 "phường": "phường",
