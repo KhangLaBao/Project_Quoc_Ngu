@@ -3455,10 +3455,29 @@ const rules = {
   "còn hạn": "hữu-hiệu-kỳ-hạn",
   "hết hạn": "quá-hạn-phế-bỏ",
   "chưa hết hạn": "vị-đáo-kỳ-hạn",
-    "hạn sử dụng": "kỳ-hạn-dụng-nạp",
+  "hạn sử dụng": "kỳ-hạn-dụng-nạp",
   "còn hạn": "còn-trong-kỳ-hạn",
   "hết hạn": "đã-quá-kỳ-hạn",
-  "chưa hết hạn": "chưa-quá-kỳ-hạn"
+  "chưa hết hạn": "chưa-quá-kỳ-hạn",
+  "máy chủ": "máy-chủ-trung-ương",
+  "bị lỗi": "hữu-sự-sai-sót",
+  "thôi mà": "vậy-thôi",
+  "có gì đâu": "chẳng-hề-có-sự-chi",
+
+  "nhiệt độ": "nhiệt-độ",
+  "sáng thì": "ban-sáng-thời",
+  "nóng": "nóng-nực",
+  "như bị thiêu": "như-bị-lò-thiêu",
+  "tối thì": "ban-đêm-thời",
+  "nó hầm": "trời-hầm-hập",
+  "như trong": "giống-như-ở-trong",
+  "như điên": "như-muốn-phát-khùng",
+  "nóng-nực": "nóng-nực",
+  "bác sĩ đông y": "thầy-lang",
+  "sự nghiệp": "cơ-nghiệp"
+
+
+
 
 
 
@@ -3508,49 +3527,6 @@ function matchCase(source, target) {
     return target.toLowerCase();
 }
 
-function convertText() {
-    let text = document.getElementById("input").value;
-    if (!text.trim()) return;
-    // Apply cleanup replacements from `cleanup` map
-    for (const [from, to] of Object.entries(cleanup)) {
-        text = text.replaceAll(from, to);
-    }
-
-    // BƯỚC 1: Đổi các từ CÓ TRONG DATABASE trước
-    text = text.replace(databaseRegex, (matched) => {
-        const lowerMatch = matched.toLowerCase();
-        const replacement = lowerRules[lowerMatch];
-        return replacement ? matchCase(matched, replacement) : matched;
-    });
-
-    // BƯỚC 2: Tự động sửa các từ KHÔNG CÓ TRONG DATABASE (Nối mọi từ ghép bằng dấu gạch ngang)
-    // Regex này tìm các cặp từ tiếng Việt có dấu đứng cạnh nhau ngăn cách bởi 1 khoảng trắng
-    const vietnameseWordPattern = /[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂÂĐÊÔƠỨỨỬỮỰẤẤẨẪẬẮẮẲẴẶẸẸỂỄỆỈỊỌỌỔỖỘỚỚỞỠỢỤỤỬỮỰỲÝỶỸỸỳýỷỹỹ]+/g;
-    
-    // Tách văn bản thành các dòng để xử lý chính xác
-    let lines = text.split('\n');
-    lines = lines.map(line => {
-        let words = line.match(vietnameseWordPattern) || [];
-        // Lặp qua các từ để nối chúng lại theo cặp nếu chưa có dấu gạch ngang
-        for (let i = 0; i < words.length - 1; i++) {
-            let currentWord = words[i];
-            let nextWord = words[i+1];
-            let rawPair = currentWord + " " + nextWord;
-            
-            // Nếu cặp từ này chứa ký tự đặc biệt hoặc đã có gạch ngang thì bỏ qua
-            if (line.includes(rawPair)) {
-                // Tạo từ ghép có dấu gạch ngang
-                let hyphenatedPair = currentWord + "-" + nextWord;
-                line = line.replace(rawPair, hyphenatedPair);
-                // Cập nhật lại mảng chữ để không bị lặp lại từ vừa nối
-                words[i+1] = hyphenatedPair; 
-            }
-        }
-        return line;
-    });
-
-    document.getElementById("output").value = lines.join('\n');
-}
 
 function clearAll() {
     document.getElementById("input").value = "";
@@ -3559,34 +3535,46 @@ function clearAll() {
 function convertText() {
     let text = document.getElementById("input").value;
     if (!text.trim()) return;
+    // Apply cleanup replacements from `cleanup` map
+    for (const [from, to] of Object.entries(cleanup)) {
+        text = text.replaceAll(from, to);
+    }
 
     // BƯỚC 0: Chuyển đổi định dạng ngày tháng
-    // Chuyển DD/MM/YYYY, DD-MM-YYYY, DD.MM.YYYY thành Ngày DD Tháng MM Năm YYYY
-const dateRegex = /(Ngày\s+)?(\d{1,2})[\/\-\.](\d{1,2})[\/\-\.](\d{4})/gi;
-
-text = text.replace(dateRegex, (matched, ngay, day, month, year) => {
+    const dateRegex = /(Ngày\s+)?(\d{1,2})[\/\-\.](\d{1,2})[\/\-\.](\d{4})/gi;
+    text = text.replace(dateRegex, (matched, ngay, day, month, year) => {
         return `Ngày ${day} Tháng ${month} Năm ${year}`;
     });
 
-    // Sắp xếp database từ dài đến ngắn để không bị nuốt chữ
-    const sortedKeys = Object.keys(rules).sort((a, b) => b.length - a.length);
+    // BƯỚC 1: Nối cặp từ khi tồn tại khoá có gạch ngang trong từ điển
+    const hyphenatedKeys = new Set(Object.keys(rules).map(k => k.toLowerCase()).filter(k => k.includes('-')));
+    const vietnameseWordPattern = /[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂÂĐÊÔƠỨỬỮỰẤẨẪẬẮẲẴẶẸỂỄỆỈỊỌỔỖỘỚỞỠỢỤỬỮỰỲÝỶỸỳýỷỹ]+/g;
 
-    // Quét qua từng từ khóa trong database và thay thế chính xác
-    sortedKeys.forEach(key => {
-        // Sử dụng regex chính xác để tìm cụm từ (không phân biệt hoa thường)
-        // Thay vì dùng \b (lỗi với tiếng Việt có dấu), ta quét trực tiếp cụm từ thô
-        const escapedKey = key.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
-        const regex = new RegExp(escapedKey, 'gi');
-
-        text = text.replace(regex, (matched) => {
-            const replacement = rules[key];
-            // Ép kiểu chữ hoa/thường theo từ gốc
-            if (matched === matched.toUpperCase()) return replacement.toUpperCase();
-            if (matched[0] === matched[0].toUpperCase()) {
-                return replacement.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join('-');
+    const lines = text.split('\n').map(line => {
+        const words = line.match(vietnameseWordPattern) || [];
+        for (let i = 0; i < words.length - 1; i++) {
+            const cur = words[i];
+            const nxt = words[i + 1];
+            const rawPair = cur + ' ' + nxt;
+            const hyphenated = (cur + '-' + nxt).toLowerCase();
+            if (hyphenatedKeys.has(hyphenated) && line.includes(rawPair)) {
+                line = line.replace(rawPair, cur + '-' + nxt);
             }
-            return replacement.toLowerCase();
-        });
+        }
+        return line;
+    }).join('\n');
+
+    text = lines;
+
+    // BƯỚC 2: Thay thế từ trong database (tìm theo thứ tự dài->ngắn)
+    const sortedKeysLocal = Object.keys(rules).sort((a, b) => b.length - a.length);
+    const dbPattern = sortedKeysLocal.map(key => key.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')).join('|');
+    const dbRegex = new RegExp(dbPattern, 'gi');
+
+    text = text.replace(dbRegex, (matched) => {
+        const lowerMatch = matched.toLowerCase();
+        const replacement = lowerRules[lowerMatch];
+        return replacement ? matchCase(matched, replacement) : matched;
     });
 
     document.getElementById("output").value = text;
