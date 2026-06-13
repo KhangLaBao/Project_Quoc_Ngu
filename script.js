@@ -3390,10 +3390,43 @@ const rules = {
 "thư điện tử": "thư-máy-điện-toán",
 
 
+  "Trời": "Thiên-địa-vạn-vật",
+  "hồi xưa": "thuở-trước",
+  "chúa": "bá-chủ",
+  "lậu": "lậu-hành",
+  "luôn đó": "vậy-thay",
+  "Nhà nhà": "Gia-gia-hộ-hộ",
+  "điều": "đều",
+  "có máy": "hữu-phó-máy",
+  "chạy": "vận-hành",
+  "trở thành": "hóa-ra",
+  "quốc dân": "quốc-dân",
+  "chứ chỉ khuyên": "duy-chỉ-khuyên-nhủ",
+  "cứ dùng": "cứ-việc-tiêu-dùng",
+  "mà đừng": "chớ-vội",
+  "cho ai biết": "để-cho-nhân-gian-tri-độ",
+  "tôi": "tôi-con",
+  "củng": "cũng-vậy",
+  "miển phí": "bất-thâu-ngân-tiền",
 
-
-
-
+  "bình minh": "bình-minh",
+  "sáng sớm": "bình-minh-sơ-hừng",
+  "buổi sáng": "triêu-thời",
+  "giữa trưa": "chánh-ngọ-thời",
+  "buổi chiều": "hạ-ngọ-thời",
+  "hoàng hôn": "hoàng-hôn-tịch-chiếu",
+  "chập tối": "bạch-mộ",
+  "buổi tối": "dạ-thời",
+  "nửa đêm": "bán-dạ-canh-khuya",
+  "ban ngày": "bạch-nhật-thời",
+  "ban đêm": "dạ-gian-thời",
+  "Nguyển Cao Kỳ": "Nguyễn-Cao-Kỳ",
+  "Nguyễn Văn Thiệu": "Nguyễn-Văn-Thiệu",
+  "Chủ tịch Hồ Chí Minh": "Chủ-tịch-Hồ-Chí-Minh",
+  "Nguyên Phú Trọng": "Nguyễn-Phú-Trọng",
+  "Nguyễn Xuân Phúc": "Nguyễn-Xuân-Phúc",
+  "Nguyễn Thị Kim Ngân": "Nguyễn-Thị-Kim-Ngân",
+  "Nguyễn Sinh Cung": "Nguyễn-Sinh-Cung",   
 
 
 
@@ -3420,9 +3453,7 @@ const cleanup = {
     // future edge cases here
 };
 
-for (const [from, to] of Object.entries(cleanup)) {
-    text = text.replaceAll(from, to);
-}
+// Apply cleanup when we have text (moved into convertText)
 
 window.onload = function () {  
     document.getElementById("counter").textContent =
@@ -3452,8 +3483,11 @@ function matchCase(source, target) {
 function convertText() {
     let text = document.getElementById("input").value;
     if (!text.trim()) return;
+    // Apply cleanup replacements from `cleanup` map
+    for (const [from, to] of Object.entries(cleanup)) {
+        text = text.replaceAll(from, to);
+    }
 
-    
     // BƯỚC 1: Đổi các từ CÓ TRONG DATABASE trước
     text = text.replace(databaseRegex, (matched) => {
         const lowerMatch = matched.toLowerCase();
