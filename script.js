@@ -3474,7 +3474,22 @@ const rules = {
   "như điên": "như-muốn-phát-khùng",
   "nóng-nực": "nóng-nực",
   "bác sĩ đông y": "thầy-lang",
-  "sự nghiệp": "cơ-nghiệp"
+  "sự nghiệp": "cơ-nghiệp",
+  "phim hoạt hình nhật bản": "hoạt-họa-kịch-Nhật-Bản",
+  "phim lãng mạn": "phim-tình-cảm-ướt-át",
+  "phim hành động": "phim-đánh-bấm-hoạt-động",
+  "phim kinh dị": "phim-kinh-khủng-rùng-rợn",
+  "phim hài": "hài-kịch-chớp-bóng",
+  "phim tài liệu": "phim-thời-sự-tài-liệu",
+  "phim trinh thám": "phim-trinh-thám-hình-sự",
+  "phim viễn tưởng": "phim-khoa-học-hoang-đường",
+
+  "Đại lộ Võ Văn Kiệt (đoạn Quận 1)": "Bến Chương-Dương",
+  "Đại lộ Võ Văn Kiệt (đoạn Quận 5)": "Bến Hàm-Tử",
+  "Đại lộ Võ Văn Kiệt (đoạn Quận 6)": "Bến Trần-Văn-Kiểu",
+  "Đại lộ Đông Tây": "Trục-lộ Bến-nghé - Tàu-hủ",
+  "Đông Tây" : "Đông-Tây",
+  "Bắc Nam": "Bắc-Nam",
 
 
 
