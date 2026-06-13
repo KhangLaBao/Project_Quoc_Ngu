@@ -3427,10 +3427,38 @@ const rules = {
   "Nguyễn Xuân Phúc": "Nguyễn-Xuân-Phúc",
   "Nguyễn Thị Kim Ngân": "Nguyễn-Thị-Kim-Ngân",
   "Nguyễn Sinh Cung": "Nguyễn-Sinh-Cung",   
+  "Washington D.C.": "Thủ-đô Hoa-Thịnh-Đốn",
+  "London": "Thủ-đô Luân-Đôn",
+  "Paris": "Thủ-đô Ba-Lê",
+  "Berlin": "Thủ-đô Bá-Linh",
+  "Rome": "Thủ-đô La-Mã",
+  "Moscow": "Thủ-đô Mạc-Tư-Khoa",
+  "Seoul": "Thủ-đô Hán-Thành",
+  "Tokyo": "Thủ-đô Đông-Kinh",
+  "Đài Bắc": "Thủ-đô Đài-Bắc",
+  "Bắc Kinh": "Thủ-đô Bắc-Kinh",
+  "Bangkok": "Thủ-đô Vọng-Các",
+  "Manila": "Thủ-đô Mã-Ni-Lạp",
+  "Canberra": "Thủ-đô Khảm-Bồi-Lạp",
+  "Ottawa": "Thủ-đô Ốt-Tạp-Oa",
+  "Cairo": "Thủ-đô Khai-La",
+  "Havana": "Thủ-đô Hạ-Uy-Di-Pháp",
+  "Vientiane": "Thủ-đô Vạn-Tượng",
+  "Phnom Penh": "Thủ-đô Nam-Vang",
+  "Jakarta": "Thủ-đô Giã-Ca-Đáp",
+  "Kuala Lumpur": "Thủ-đô Cát-Long-Ba",
+  "New Delhi": "Thủ-đô Tân-Đề-Li",
+  "phản quốc": "phản-nghịch-bản-quốc",
+  "phản chủ": "phản-bộc-bội-chúa",
 
 
-
-
+  "còn hạn": "hữu-hiệu-kỳ-hạn",
+  "hết hạn": "quá-hạn-phế-bỏ",
+  "chưa hết hạn": "vị-đáo-kỳ-hạn",
+    "hạn sử dụng": "kỳ-hạn-dụng-nạp",
+  "còn hạn": "còn-trong-kỳ-hạn",
+  "hết hạn": "đã-quá-kỳ-hạn",
+  "chưa hết hạn": "chưa-quá-kỳ-hạn"
 
 
 
