@@ -3491,6 +3491,13 @@ const rules = {
   "Đông Tây" : "Đông-Tây",
   "Bắc Nam": "Bắc-Nam",
 
+  "Trường": "Học-đường",
+  "Adolf Hitler": "Á-đốc-phu Hy-đặc-lặc",
+  "về": "luận-về",
+  "tình bạn": "hữu-nghị-tâm-tình",
+  "và": "cùng-với",
+  "lòng khoan dung": "khoan-dung-đại-độ"
+
 
 
 
