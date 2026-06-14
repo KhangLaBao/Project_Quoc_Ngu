@@ -3498,7 +3498,27 @@ const rules = {
   "về": "luận-về",
   "tình bạn": "hữu-nghị-tâm-tình",
   "và": "cùng-với",
-  "lòng khoan dung": "khoan-dung-đại-độ"
+  "lòng khoan dung": "khoan-dung-đại-độ",
+
+  "đọc được": "đọc-được",
+  "lá thư": "lá-thư",
+  "muốn nói là": "muốn-bày-tỏ",
+  "phớt lờ": "phớt-lờ",
+  "việc gửi": "sự-gởi",
+  "yêu cầu": "lời-mời",
+  "Chắc cho có": "Chắc-cho-vui-vầy",
+  "Chắc cho có vậy": "Chắc-cho-vui-vầy",
+  "Đúng thì": "Đúng-thời",
+  "có sai": "có-lầm-lỗi",
+  "sẵng sàn": "sẵn-sàng",
+  "chấp nhận": "chấp-nhận",
+  "lắng nghe": "lắng-nghe",
+  "sửa lổi": "sửa-lỗi",
+  "bước vào": "tiến-vào",
+  "tương lai": "tương-lai",
+  "ghết": "ghét-bỏ",
+  "huỷ kết bạn": "hủy-kết-giao",
+  "vậy thôi": "vậy-thôi"
 
 
 
