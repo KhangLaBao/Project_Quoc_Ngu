@@ -3492,7 +3492,9 @@ const rules = {
   "Bắc Nam": "Bắc-Nam",
 
   "Trường": "Học-đường",
-  "Adolf Hitler": "A-Đáo-Phu Hy-Đặc-Lặc",
+  "Adolf Hitler": "A-đôn-phơ Hít-le",
+  "Adolf": "A-đôn-phơ",
+  "Hitler": "Hít-le",
   "về": "luận-về",
   "tình bạn": "hữu-nghị-tâm-tình",
   "và": "cùng-với",
