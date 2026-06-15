@@ -3572,7 +3572,12 @@ const rules = {
   "giúp": "tương-trợ",
   "vẽ": "họa-hình",
   "cái này": "sự-vật-này",
-  "không": "hay-chăng"
+  "không": "hay-chăng",
+  "đó là": "đó-chính-là",
+  "hướng dẩn": "bản-chỉ-dẫn",
+  "thêm": "bổ-túc-vào",
+  "hình": "hình-ảnh",
+  "lớp phủ": "lớp-màn-che-phủ"
 
 
 
