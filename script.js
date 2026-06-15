@@ -3564,7 +3564,9 @@ const rules = {
   "đến nhà": "đến-tận-nhà-cửa",
   "gõ cửa": "gõ-cửa-ầm-ĩ",
   "thì": "thời",
-  "chết tôi": "chết-đứt-tôi-con"
+  "chết tôi": "chết-đứt-tôi-con",
+  "chỉ là": "duy-chỉ-là",
+  "biển quảng cáo": "bản-đèn-quảng-cáo"
 
 
 
