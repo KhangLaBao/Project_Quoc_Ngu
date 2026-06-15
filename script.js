@@ -3567,7 +3567,12 @@ const rules = {
   "chết tôi": "chết-đứt-tôi-con",
   "chỉ là": "duy-chỉ-là",
   "biển quảng cáo": "bản-đèn-quảng-cáo",
-  "đẹp lắm" : "đẹp-lắm"
+  "đẹp lắm" : "đẹp-lắm",
+  "muốn": "có-muốn",
+  "giúp": "tương-trợ",
+  "vẽ": "họa-hình",
+  "cái này": "sự-vật-này",
+  "không": "hay-chăng"
 
 
 
