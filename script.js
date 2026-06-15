@@ -3587,6 +3587,7 @@ const rules = {
   "tại vì cứ cố chấp": "tại-vì-cứ-ngoan-cố",
   "quả pin 0%": "cục-pin-hết-sạch-điện-lực",
   "hết pin" : "pin-hết-sạch-điện-lực",
+  "đã ghi nhận" : "đã-ghi-nhận"
 
 
 
