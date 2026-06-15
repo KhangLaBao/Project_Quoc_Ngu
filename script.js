@@ -3566,8 +3566,8 @@ const rules = {
   "thì": "thời",
   "chết tôi": "chết-đứt-tôi-con",
   "chỉ là": "duy-chỉ-là",
-  "biển quảng cáo": "bản-đèn-quảng-cáo"
-
+  "biển quảng cáo": "bản-đèn-quảng-cáo",
+  "đẹp lắm" : "đẹp-lắm"
 
 
 
