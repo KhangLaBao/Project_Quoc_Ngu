@@ -3552,7 +3552,7 @@ const rules = {
   "kết nói": "kết-nối",
   "cùng-vớio vi-tính": "cùng-với máy-điện-toán",
 
-    "áy chết": "ấy-chết-vậy-kia",
+  "áy chết": "ấy-chết-vậy-kia",
   "lộ nguyên": "bị-bại-lộ-hoàn-toàn",
   "khu vực": "vùng-đất-đai",
   "anh ở": "anh-trú-ngụ",
