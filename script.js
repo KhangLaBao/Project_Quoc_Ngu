@@ -3572,12 +3572,23 @@ const rules = {
   "giúp": "tương-trợ",
   "vẽ": "họa-hình",
   "cái này": "sự-vật-này",
-  "không": "hay-chăng",
+  "hay không": "hay-chăng",
   "đó là": "đó-chính-là",
   "hướng dẩn": "bản-chỉ-dẫn",
   "thêm": "bổ-túc-vào",
   "hình": "hình-ảnh",
-  "lớp phủ": "lớp-màn-che-phủ"
+  "lớp phủ": "lớp-màn-che-phủ",
+  "lát nữa": "giút-lát-nữa-đây",
+  "roblox": "Rô-bốc",
+    "có muốn": "có-muốn",
+  "chơi không": "tham-gia-vui-vầy-chăng",
+  "đã ghi nhận": "đã-ghi-nhận",
+  "bó tay luôn": "vô-phương-cứu-chữa-mất-rồi",
+  "tại vì cứ cố chấp": "tại-vì-cứ-ngoan-cố",
+  "quả pin 0%": "cục-pin-hết-sạch-điện-lực",
+  "hết pin" : "pin-hết-sạch-điện-lực",
+
+
 
 
 
@@ -3598,6 +3609,7 @@ const rules = {
 
 const cleanup = {
     "thư máy-điện-toán": "thư-máy-điện-toán",
+    "có muốn": "có-muốn",
     // future edge cases here
 };
 
@@ -3670,7 +3682,8 @@ function convertText() {
     // BƯỚC 2: Thay thế từ trong database (tìm theo thứ tự dài->ngắn)
     const sortedKeysLocal = Object.keys(rules).sort((a, b) => b.length - a.length);
     const dbPattern = sortedKeysLocal.map(key => key.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')).join('|');
-    const dbRegex = new RegExp(dbPattern, 'gi');
+    // Avoid matching inside already-hyphenated tokens (prevents double insertion like "có-có-muốn")
+    const dbRegex = new RegExp('(?<!-)(' + dbPattern + ')(?!-)', 'gi');
 
     text = text.replace(dbRegex, (matched) => {
         const lowerMatch = matched.toLowerCase();
