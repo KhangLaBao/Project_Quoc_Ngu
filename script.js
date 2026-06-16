@@ -3547,7 +3547,6 @@ const rules = {
 
   "mới": "vừa-mới",
   "chụp được": "thâu-hoạch-được",
-  "một ảnh": "một-tấm-hình-ảnh",
   "đang": "đương-lúc",
   "kết nói": "kết-nối",
   "cùng-vớio vi-tính": "cùng-với máy-điện-toán",
@@ -3587,7 +3586,61 @@ const rules = {
   "tại vì cứ cố chấp": "tại-vì-cứ-ngoan-cố",
   "quả pin 0%": "cục-pin-hết-sạch-điện-lực",
   "hết pin" : "pin-hết-sạch-điện-lực",
-  "đã ghi nhận" : "đã-ghi-nhận"
+  "đã ghi nhận" : "đã-ghi-nhận",
+
+  "Đồ bấm tivi/vô tuyến": "máy-điều-khiển-vô-tuyến-từ-xa",
+  "Đồ bấm tivi": "máy-điều-khiển-vô-tuyến-từ-xa",
+  "Đồ bấm vô tuyến": "máy-điều-khiển-vô-tuyến-từ-xa",
+  "Giữ bằng niềm tin": "gìn-giữ-bằng-lòng-tin-vô-vọng",
+  "Hack": "sự-xâm-nhập-lậu",
+  "hải lí": "hải-lý",
+  "bật nguồn" : "bật-nguồn",
+
+    "ngành giải trí và nghệ thuật": "ngành-tiêu-khiển-và-mỹ-thuật",
+  "nghệ thuật biểu diễn": "nghệ-thuật-diễn-kịch",
+  "tài tử chớp bóng": "tài-tử-chớp-bóng",
+  "diễn viên điện ảnh": "người-đóng-hát-trong-rạp-chớp-bóng",
+  "ngành giải trí": "ngành-tiêu-khiển",
+  "nghệ thuật": "mỹ-thuật",
+  "rạp chiếu phim": "ảnh-hí-viện",
+  "ảnh hí viện": "ảnh-hí-viện",
+  "cuộc chiến tranh": "cuộc-chiến-tranh",
+  "nền kinh tế": "nền-kinh-tế",
+  "phản chiếu": "phản-chiếu",
+  "ánh sáng": "quang-tuyến",
+  "bóng râm": "bóng-râm",
+  "gương soi": "kiến-soi",
+  "mặt nước": "mặt-nước",
+  "bùng nổ": "hưng-thịnh",
+  "thời kỳ": "thời-kỳ",
+  "điện ảnh": "chớp-bóng",
+  "hát bóng": "hát-bóng",
+  "chớp bóng": "chớp-bóng",
+  "ảnh trường": "ảnh-trường",
+  "khoa học": "khoa-học",
+  "kỹ thuật": "kỹ-nghệ",
+  "tự nhiên": "tạo-hóa",
+  "ảnh bóng": "ảnh-bóng",
+  "hình ảnh": "hình-ảnh",
+  "ảnh hưởng": "ảnh-hưởng",
+  "huyễn ảnh": "huyễn-ảnh",
+  "vân ảnh": "vân-ảnh",
+  "văn chương": "văn-chương",
+  "ngôn ngữ": "ngôn-ngữ",
+  "đời sống": "sinh-hoạt",
+  "ngọn đèn": "ngọn-đèn",
+  "ảnh tử": "ảnh-tử",
+  "cô ảnh": "cô-ảnh",
+  "đứa con": "đứa-con",
+  "chính mình": "tự-thân-mình",
+  "hình bóng": "hình-bóng",
+  "chuyển động": "vận-hành",
+  "phim ảnh": "chớp-bóng",
+  "nghĩa là": "nghĩa-là",
+  "tác động": "cảm-hóa",
+  "hệ lụy": "hệ-lụy",
+  "phổ biến": "phổ-biến",
+   
 
 
 
@@ -3611,6 +3664,7 @@ const rules = {
 const cleanup = {
     "thư máy-điện-toán": "thư-máy-điện-toán",
     "có muốn": "có-muốn",
+    
     // future edge cases here
 };
 
