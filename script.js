@@ -3640,7 +3640,12 @@ const rules = {
   "tác động": "cảm-hóa",
   "hệ lụy": "hệ-lụy",
   "phổ biến": "phổ-biến",
-   
+  "đồng hồ analog": "đồng-hồ-mặt-chỉ-kim",
+  "tín hiệu analog": "luồng-điện-biến-thiên",
+  "sóng analog": "làn-sóng-liên-tục",
+  "băng analog": "băng-nhạc-liên-thanh",
+  "analog": "hệ-thống-a-na-lô-gích",
+  "luồng điện biến thiên": "luồng-điện-biến-thiên"
 
 
 
