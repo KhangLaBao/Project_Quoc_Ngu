@@ -1794,6 +1794,7 @@ const rules = {
 "khinh khí cầu": "khí-cầu-vận-tải",
 "khí cầu": "khí-cầu",
 "phi thuyền": "phi-thuyền-không-gian",
+"phi hành gia" : "phi-hành-gia",
 "đĩa bay": "đĩa-bay-lạ",
 
 // Các khái niệm hành động bay (Aviation Terms)
