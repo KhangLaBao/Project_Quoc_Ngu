@@ -3645,7 +3645,11 @@ const rules = {
   "sóng analog": "làn-sóng-liên-tục",
   "băng analog": "băng-nhạc-liên-thanh",
   "analog": "hệ-thống-a-na-lô-gích",
-  "luồng điện biến thiên": "luồng-điện-biến-thiên"
+  "luồng điện biến thiên": "luồng-điện-biến-thiên",
+
+  "phim trường": "ảnh-trường",
+  "kỹ xảo điện ảnh": "xảo-thuật-chớp-bóng",
+  "kỹ xảo": "xảo-thuật",
 
 
 
