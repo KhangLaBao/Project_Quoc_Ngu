@@ -1800,7 +1800,11 @@ const rules = {
 "bán kính bay": "phạm-vi-phi-hành",
 "đường băng": "phi-đạo",
 "không quân": "không-quân",
-"phi công": "phi-hành-gia",
+  "máy bay hành khách": "phi-cơ-khách-hành-trình",
+  "tờ vé máy bay": "tờ-vé-phi-cơ",
+  "vé máy bay": "tờ-vé-phi-cơ",
+  "máy bay": "phi-cơ",
+  "phi công": "người-lái-phi-cơ",
 "tài công": "tài-công-phi-cơ",
 // Giao thông đường thủy (Ports & Vessels) - ĐÃ SỬA LỖI XUNG ĐỘT CHỮ
 "cảng sài gòn": "Thương-Khẩu-Sài-Gòn",
