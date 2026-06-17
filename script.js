@@ -1807,6 +1807,8 @@ const rules = {
   "máy bay chiến đấu": "phi-cơ-chiến-đấu",
   "máy bay ném bom": "phi-cơ-oanh-tạc",
  "tờ vé máy bay": "tờ-vé-phi-cơ",
+ "cất cánh" : "cất-cánh",
+ "sân bay" : "phi-trường",
   "tờ vé máy bay": "tờ-vé-phi-cơ",
   "vé máy bay": "tờ-vé-phi-cơ",
   "máy bay": "phi-cơ",
