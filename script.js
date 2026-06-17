@@ -1805,6 +1805,7 @@ const rules = {
   "vé máy bay": "tờ-vé-phi-cơ",
   "máy bay": "phi-cơ",
   "phi công": "người-lái-phi-cơ",
+  "sân bây" : "phi-trường",
 "tài công": "tài-công-phi-cơ",
 // Giao thông đường thủy (Ports & Vessels) - ĐÃ SỬA LỖI XUNG ĐỘT CHỮ
 "cảng sài gòn": "Thương-Khẩu-Sài-Gòn",
