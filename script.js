@@ -3663,8 +3663,7 @@ const rules = {
   "phim trường": "ảnh-trường",
   "kỹ xảo điện ảnh": "xảo-thuật-chớp-bóng",
   "kỹ xảo": "xảo-thuật",
-
-
+  "phiên bản" : "phiên-bản"
 
 
 
