@@ -3676,6 +3676,7 @@ const rules = {
 
     "sống tại": "trú-ngụ-tại",
   "ở tại": "trú-ngụ-tại",
+  "trú ngụ" : "trú-ngụ",
   "Tân Sơn Nhất": "Tân-Sơn-Nhứt",
   "đứa đó": "đứa-đó"
 
