@@ -3670,7 +3670,9 @@ const rules = {
   "mới sinh ra": "mới-lọt-lòng-mẹ",
   "mới sanh ra": "mới-lọt-lòng-mẹ",
   "sinh ra": "sanh-ra",
-  "sanh ra": "sanh-ra"
+  "sanh ra": "sanh-ra",
+    "Đồng bào": "Đồng-bào",
+  "đồng bào": "đồng-bào"
 
 
 
