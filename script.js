@@ -3672,7 +3672,12 @@ const rules = {
   "sinh ra": "sanh-ra",
   "sanh ra": "sanh-ra",
     "Đồng bào": "Đồng-bào",
-  "đồng bào": "đồng-bào"
+  "đồng bào": "đồng-bào",
+
+    "sống tại": "trú-ngụ-tại",
+  "ở tại": "trú-ngụ-tại",
+  "Tân Sơn Nhất": "Tân-Sơn-Nhứt",
+  "đứa đó": "đứa-đó"
 
 
 
