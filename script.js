@@ -3730,7 +3730,11 @@ const rules = {
   "Nhà Bè": "Nhà-bè",
   "Củ Chi": "Củ-chi",
   "quận 2": "quận-nhì",
-  "Quận 2": "Quận-nhì"
+  "Quận 2": "Quận-nhì",
+  "kẻ xấu": "đứa-gian-phi",
+  "Kẻ xấu": "Đứa-gian-phi",
+  "di chuyển": "di-chuyển",
+  "con tàu": "con-tàu"
 
 
 
